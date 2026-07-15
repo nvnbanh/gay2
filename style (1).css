@@ -1,0 +1,147 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #2d3748;
+}
+
+header {
+    background-color: #1a365d;
+    padding: 20px;
+    text-align: center; 
+}
+
+nav {
+    background-color: #102a43; 
+    padding: 10px;
+    display: inline-block; 
+    width: 80%;     
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    background-color: #f7fafc; 
+    font-size: 1.15rem;      
+    padding: 25px;
+}
+
+footer {
+    background-color: #2d3748; 
+    color: #ffffff;            
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;               
+    font-family: 'Georgia', Times, serif; 
+    color: #ffffff;               
+}
+
+p {
+    line-height: 1.8; 
+    color: #4a5568;         
+    margin-bottom: 20px;     
+}
+
+footer p {
+    color: #e2e8f0;
+    margin-bottom: 0;
+}
+
+p.highlight {
+    background-color: #ebf8ff; 
+    border-left: 4px solid #3182ce; 
+    padding: 15px;            
+    border-radius: 4px;       
+    color: #2b6cb0;            
+}
+
+nav a, nav a:link, nav a:visited {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none !important;
+    color: #fbd38d !important; 
+}
+
+main a, main a:link, main a:visited {
+    color: #1a365d !important;       
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #2b6cb0 !important;
+}
+
+footer a, footer a:link, footer a:visited {
+    color: #90cdf4 !important;       
+    text-decoration: underline !important;
+}
+
+footer a:hover {
+    color: #ffffff !important;
+}
+
+.skip-link {
+    display: inline-block;
+    background: #fbd38d;
+    color: #1a365d !important;
+    padding: 8px 15px;
+    margin: 10px;
+    text-decoration: none !important;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.skip-link:focus {
+    top: 0; 
+}
+
+header img, nav img {
+    width: 10%;        
+    height: auto;
+    border-radius: 4px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%; 
+    justify-content: space-around; 
+    align-items: center;           
+    row-gap: 25px;              
+    column-gap: 10px;
+    margin-top: 30px;
+}
+
+.grid img {
+    width: 100% !important; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;         
+    flex-wrap: wrap;      
+    justify-content: space-evenly; 
+    gap: 15px;            
+    margin-top: 30px;
+}
+
+.flex img {
+    width: 200px;         
+    height: auto;
+    border-radius: 8px;
+}
